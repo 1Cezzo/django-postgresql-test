@@ -1,0 +1,17 @@
+<!-- In my_template.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Model Objects</title>
+</head>
+<body>
+    <h1>Sample Model Objects</h1>
+    <ul>
+        {% for obj in objects %}
+            <li>{{ obj.name }} - {{ obj.description }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
